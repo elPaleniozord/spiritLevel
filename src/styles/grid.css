@@ -1,7 +1,55 @@
 .grid {
-
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 25% 25% 25% 25%;
+}
+.grid-ruler {
+  grid-area: 1 / 1 / 5 / 5;
+  width: 100%;
+  height: 100%;
+  stroke: black;
+  stroke-width: 1;
 }
 
-.grid-line__mark {
+.grid-ruler > line {
+  vector-effect: non-scaling-stroke;
+}
+
+.grid-center {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+}
+
+.grid-crosshair {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+
+.grid-line__marker {
+  position: absolute;
   font-size: 5px;
+  user-select: none;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.grid-marker__topLeft {
+  grid-area: 1/2/1/3;
+
+}
+.grid-marker__topMid {
+  grid-area: 1/3/1/4;
+}
+
+.grid-marker__topRight {
+  grid-area: 1/4/1/5;
 }

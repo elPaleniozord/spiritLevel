@@ -8,11 +8,10 @@ const Level = () => {
   return (
     <div>
       <Grid orientation={orient} />
-      <Measure orientation={orient} />
-      <div className='display'>
-        <div>Horizontal alignment: {orient.y}</div>
-        <div>Vertical alignment: {orient.z}</div>
-      </div>
+      <Measure type={'horizontal'} orientation={orient} />
+      <Measure type={'vertical'} orientation={orient} />
+      {/* <Measure type={'vertical'} orientation={orient} />
+      <Measure type={'flat'} orientation={orient} /> */}
     </div>
   )
 }

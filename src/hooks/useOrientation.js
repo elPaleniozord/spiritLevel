@@ -4,8 +4,6 @@ import debounce from '../utils/debounce'
 const useOrientation = () => {
   const [coords, setCoords] = useState({})
 
-  let xMax, yMax
-
   const handleOrientationChange = (e) => {
     let absolute = e.absolute
     let alpha = e.alpha //[-360, 360] range

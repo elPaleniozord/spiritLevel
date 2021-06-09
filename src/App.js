@@ -6,8 +6,6 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Poziomica</h1>
-        <span>Cyfrowa poziomica w twoim telefonie</span>
       </header>
 
       <Level />

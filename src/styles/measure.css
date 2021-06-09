@@ -1,0 +1,37 @@
+.measure {
+  width: 220px;
+  height: 30px;
+  margin: auto;
+  border-radius: 25px;
+  background: rgb(53, 53, 53);
+  position: absolute;
+  overflow: hidden;
+}
+
+.measure__horizontal {
+  left: calc(50% - 110px);
+}
+.measure__vertical {
+  transform: rotate(90deg);
+  top: 50%;
+  left: 55%;
+}
+.measure-display {
+  color: rgb(235, 223, 223);
+  top: calc(50% - 15px);
+  font-size: 20px;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  z-index: 10;
+}
+
+.measure-fill {
+  background: rgb(25, 131, 25);
+  position: absolute;
+  top: 0;
+  left: 25%;
+  width: 50%;
+  height: 30px;
+  border-radius: 15px;
+}

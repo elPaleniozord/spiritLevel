@@ -1,11 +1,12 @@
-import React from 'react'
+import React, {useState} from 'react'
 
 const Menu = () => {
+  const [collapsed, setCollapsed] = useState(true)
   return (
-    <nav>
-
+    <nav class={`menu ${collapsed}`}>
+      
     </nav>
   )
 }
 
-export default Grid
+export default Menu

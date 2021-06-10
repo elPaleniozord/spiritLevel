@@ -6,6 +6,7 @@ const useOrientation = () => {
 
   const handleOrientationChange = (e) => {
     let absolute = e.absolute
+    console.log(absolute)
     let alpha = e.alpha //[0, 360] range
 
     //add 90 degrees to simplify computation by removing negative angles

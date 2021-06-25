@@ -3,6 +3,7 @@
   height: 30px;
   margin: auto;
   border-radius: 25px;
+  border: 1px solid rgb(70, 255, 0);
   background: rgb(53, 53, 53);
   position: absolute;
   overflow: hidden;

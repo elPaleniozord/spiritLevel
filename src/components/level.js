@@ -3,13 +3,13 @@ import useOrientation from '../hooks/useOrientation'
 import Grid from './grid'
 import Measure from './measure'
 
-const Level = () => {
-  const orient = useOrientation()
+const Level = ({orientation}) => {
+
   return (
     <div>
-      <Grid orientation={orient} />
-      <Measure type={'horizontal'} orientation={orient} />
-      <Measure type={'vertical'} orientation={orient} />
+      <Grid orientation={orientation} />
+      <Measure type={'horizontal'} orientation={orientation} />
+      <Measure type={'vertical'} orientation={orientation} />
       {/* <Measure type={'vertical'} orientation={orient} />
       <Measure type={'flat'} orientation={orient} /> */}
     </div>

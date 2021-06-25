@@ -8,12 +8,12 @@
   grid-template-columns: 25% 25% 25% 25%;
   grid-template-rows: 25% 25% 25% 25%;
   z-index: -1;
+  stroke: rgb(70, 255, 0);
 }
 .grid-ruler {
   grid-area: 1 / 1 / 5 / 5;
   width: 100%;
   height: 100%;
-  stroke: black;
   stroke-width: 1;
 }
 
@@ -33,6 +33,10 @@
   width: 100%;
   height: 100%;
   top: 0;
+  stroke: white;
+}
+.grid-crosshair__leveled {
+  stroke: rgb(70, 255, 0);
 }
 
 .grid-line__marker {

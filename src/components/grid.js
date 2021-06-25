@@ -2,8 +2,10 @@ import React from 'react'
 import '../styles/grid.css'
 
 const Grid = ({orientation}) => {
-  const x = orientation.z*100/180 || 0,
-        y = orientation.y*100/90 || 0
+  const x = orientation.gamma*100/180 || 0,
+        y = orientation.beta*100/90 || 0
+
+  const leveled = Math.abs(orientation.beta) < 5 && Math.abs(orientation.gamma) < 10
 
   return (
     <div className='grid'>
@@ -17,11 +19,11 @@ const Grid = ({orientation}) => {
         <line x1='0' x2='100' y1='75' y2='75' />
       </svg>
       <svg className='grid-center' viewBox='0 0 100 100'>
-        <circle cx='50' cy='50' r='7' stroke='black' stroke-width='.25' fill='none' />
+        <circle cx='50' cy='50' r='7' strokeWidth='.25' fill='none' />
       </svg>
 
-      <svg className='grid-crosshair' viewBox='0 0 100 100'>
-        <g id='crosshair' transform={`translate(${x}, ${y})`} transform-origin='center' fill='none' stroke='black' stroke-width='.25'>
+      <svg className={`grid-crosshair${leveled ? ' grid-crosshair__leveled' : ''}`} viewBox='0 0 100 100'>
+        <g id='crosshair' transform={`translate(${x}, ${y})`} transform-origin='center' fill='none' strokeWidth='.25'>
           <circle cx='50' cy='50'  r='2'  />
           <path d='M47.5,47.5 L52.5, 52.5 M52.5,47.5 L47.5, 52.5' />
         </g>

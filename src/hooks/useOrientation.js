@@ -14,7 +14,7 @@ const useOrientation = () => {
     let gamma = e.gamma // - offset //[-90, 90] range
 
     if(isNaN(beta) || beta === null) {
-      console.log('No device orientation support')
+      //console.log('No device orientation support')
       //handle unsupported devices
     } else {
       setCoords({

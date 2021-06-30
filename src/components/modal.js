@@ -1,5 +1,6 @@
 import React, {useContext, useRef, useState, useEffect} from 'react'
 import ReactDOM from 'react-dom'
+import '../styles/modal.css'
 
 const Context = React.createContext()
 
@@ -12,10 +13,10 @@ export const ModalProvider = ({children}) => {
   }, [])
 
   return (
-    <div className='modal-container'>
+    <>
       <Context.Provider value={context}>{children}</Context.Provider>
-      <div ref={modalRef} />
-    </div>
+      <div ref={modalRef} className='modal-container' />
+    </>
   )
 }
 
@@ -27,7 +28,7 @@ export const Modal = ({onClose, children, ...props}) => {
       <div className='modal-overlay'>
         <div className='modal-dialog'>
           {children}
-          <button onClick={onClose}>Close</button>
+          <button className='modal-button' onClick={onClose}>Understood</button>
         </div>
       </div>, modalNode
     )

@@ -1,5 +1,4 @@
 import React from 'react'
-import useOrientation from '../hooks/useOrientation'
 import Grid from './grid'
 import Measure from './measure'
 

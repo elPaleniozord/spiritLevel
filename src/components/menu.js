@@ -1,10 +1,8 @@
-import React, {useEffect, useState} from 'react'
+import React, {useState} from 'react'
 import '../styles/menu.css'
 
 const Menu = ({orientation, calibrate, offset}) => {
   const [collapsed, setCollapsed] = useState(true)
-
-  const [display, setDisplay] = useState('details')
 
   return (
     <nav className={`menu ${collapsed && 'menu__collapsed'}`}>

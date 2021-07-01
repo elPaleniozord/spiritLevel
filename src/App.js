@@ -10,7 +10,7 @@ function App() {
   const [modalOpen , setModalOpen] = useState(true)
 
   const orientationSupport = window.DeviceOrientationEvent && 'ontouchstart' in window
-  console.log(orientationSupport)
+
   return (
     <ModalProvider className="App">
       {
@@ -33,6 +33,7 @@ function App() {
 
       <Level orientation={orientation.values} />
       <Menu orientation={orientation.values} calibrate={orientation.calibrate} offset={orientation.offset} />
+
       <footer className='app-footer'>Designed and coded by <a className='app-link' href='https://github.com/elPaleniozord'>jWalasik</a></footer>
     </ModalProvider>
   );

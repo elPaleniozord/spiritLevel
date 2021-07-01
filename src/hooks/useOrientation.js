@@ -50,9 +50,9 @@ const useOrientation = () => {
     alpha: (coords.alpha - offset.alpha).toFixed(2),
     beta: (coords.beta - offset.beta).toFixed(2),
     gamma: (coords.gamma - offset.gamma).toFixed(2),
-    baseAlpha: coords.alpha,
-    baseBeta: coords.beta,
-    baseGamma: coords.gamma
+    baseAlpha: coords.alpha.toFixed(2),
+    baseBeta: coords.beta.toFixed(2),
+    baseGamma: coords.gamma.toFixed(2)
   }
 
   return {

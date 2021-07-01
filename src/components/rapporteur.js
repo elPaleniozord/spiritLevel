@@ -10,7 +10,7 @@ const Rapporteur = ({orientation}) => {
       <svg viewBox='0 0 100 100' className='rapporteur-crosshair' >
         <path d='M10,50 L90,50 M50,20 L50,80' vectorEffect='non-scaling-stroke' />
       </svg>
-      <div className='rapporteur-display' transform={`rotate(${angle})`}>{angle.toFixed(2)}</div>
+      <div className='rapporteur-display' transform={`rotate(${angle})`}>{angle.toFixed(2)}°</div>
     </div>
 
   )

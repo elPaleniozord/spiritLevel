@@ -3,12 +3,10 @@
   z-index: 10;
   position: absolute;
   padding: 12px;
-  max-height: 600px;
-  max-width: 600px;
-  width: 100%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  width: 90%;
 }
 .modal-overlay {
   border-radius: 25px;

@@ -4,7 +4,7 @@ import '../styles/modal.css'
 
 const Context = React.createContext()
 
-export const ModalProvider = ({children}) => {
+export const ModalProvider = ({children, className}) => {
   const modalRef = useRef()
   const [context, setContext] = useState()
 
@@ -13,10 +13,10 @@ export const ModalProvider = ({children}) => {
   }, [])
 
   return (
-    <>
+    <div className={className}>
       <Context.Provider value={context}>{children}</Context.Provider>
       <div ref={modalRef} className='modal-container' />
-    </>
+    </div>
   )
 }
 

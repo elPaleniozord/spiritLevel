@@ -1,8 +1,16 @@
-import React, {useState} from 'react'
+import React, {useContext, useState} from 'react'
+import { DisplayContext } from '../hooks/displayMode'
 import '../styles/menu.css'
 
 const Menu = ({orientation, calibrate, offset}) => {
   const [collapsed, setCollapsed] = useState(true)
+  const displayCtx = useContext(DisplayContext)
+
+
+  const changeMode = () => {
+    const newValue = displayCtx.display === 'rapporteur' ? 'grid' : 'rapporteur'
+    displayCtx.setDisplay(newValue)
+  }
 
   return (
     <nav className={`menu ${collapsed && 'menu__collapsed'}`}>
@@ -34,7 +42,7 @@ const Menu = ({orientation, calibrate, offset}) => {
         {offset ? 'Reset' : 'Zero'}
       </button>
 
-      <button className={`menu-button ${collapsed ? 'menu-button__hidden' : 'right'}`}>Info</button>
+      <button className={`menu-button ${collapsed ? 'menu-button__hidden' : 'right'}`} onClick={changeMode}>Mode</button>
     </nav>
   )
 }

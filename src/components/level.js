@@ -1,14 +1,19 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { DisplayContext } from '../hooks/displayMode';
 import Grid from './grid'
 import Measure from './measure'
 import Rapporteur from './rapporteur';
 
 const Level = ({orientation}) => {
-
+  const ctx = useContext(DisplayContext)
+  console.log(ctx)
   return (
-    <div>
-      {/* <Grid orientation={orientation} /> */}
-      <Rapporteur orientation={orientation} />
+    <div className='level'>
+      {ctx.display === 'rapporteur' ? 
+        <Rapporteur orientation={orientation} />
+        :
+        <Grid orientation={orientation} />
+      }
       <Measure type={'horizontal'} orientation={orientation} />
       <Measure type={'vertical'} orientation={orientation} />
       {/* <Measure type={'vertical'} orientation={orient} />

@@ -4,6 +4,7 @@ import { Modal, ModalProvider } from './components/modal'
 import Level from './components/level'
 import Menu from './components/menu'
 import useOrientation from './hooks/useOrientation';
+import { DisplayProvider } from './hooks/displayMode';
 
 function App() {
   const orientation = useOrientation()
@@ -12,7 +13,7 @@ function App() {
   const orientationSupport = window.DeviceOrientationEvent && 'ontouchstart' in window
 
   return (
-    <ModalProvider className="App">
+    <ModalProvider className="app">
       {
         modalOpen && (
           <Modal onClose={() => setModalOpen(false)}>
@@ -20,7 +21,7 @@ function App() {
               <span className='app-header__prefix'>Welcome to</span><br/>
               Javascript Level App
             </h1>
-            <div className='app'>
+            <div>
               This application requires access to sensors tracking orientation and movement of your device, make sure consent is granted. Additionally browsers might handle device orientation differently, if you encounter any bugs or unexpected behaviour feel free to <a className='app-link' href="mailto:jacekwalasik89@gmail.com">Contact Me</a> - (providing issue description, browser and device info will help greatly).
             </div>
             <div className='app-status'>Device status:    {orientationSupport 
@@ -30,9 +31,10 @@ function App() {
           </Modal>
         )
       }
-
-      <Level orientation={orientation.values} />
-      <Menu orientation={orientation.values} calibrate={orientation.calibrate} offset={orientation.offset} />
+      <DisplayProvider>
+        <Level orientation={orientation.values} />
+        <Menu orientation={orientation.values} calibrate={orientation.calibrate} offset={orientation.offset} />
+      </DisplayProvider>
 
       <footer className='app-footer'>Designed and coded by <a className='app-link' href='https://github.com/elPaleniozord'>jWalasik</a></footer>
     </ModalProvider>

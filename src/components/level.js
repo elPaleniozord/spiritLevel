@@ -6,7 +6,7 @@ import Rapporteur from './rapporteur';
 
 const Level = ({orientation}) => {
   const ctx = useContext(DisplayContext)
-  console.log(ctx)
+
   return (
     <div className='level'>
       {ctx.display === 'rapporteur' ? 

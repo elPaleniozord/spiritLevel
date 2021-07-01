@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg version="1.1" viewBox="0 0 412.87 412.87" xmlns="http://www.w3.org/2000/svg" xmlnsCc="http://creativecommons.org/ns#" xmlnsDc="http://purl.org/dc/elements/1.1/" xmlnsRdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlnsXlink="http://www.w3.org/1999/xlink">
-<metadata>
-<rdfRDF>
-<ccWork rdfAbout="">
-<dcFormat>image/svg+xml</dcFormat>
-<dcType rdfResource="http://purl.org/dc/dcmitype/StillImage"/>
-<dcTitle/>
-</ccWork>
-</rdfRDF>
-</metadata>
+<svg version="1.1" viewBox="0 0 412.87 412.87" xmlns="http://www.w3.org/2000/svg" xmlns-cc="http://creativecommons.org/ns#" xmlns-dc="http://purl.org/dc/elements/1.1/" xmlns-rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlnsXlink="http://www.w3.org/1999/xlink">
+
 <g transform="translate(-10.592 -65.862)">
 <path d="m217.02 260.74v23.101" strokeWidth=".5"/>
 <path d="m228.58 272.3h-23.101" strokeWidth=".5"/>
@@ -488,42 +480,42 @@
 <use transform="matrix(.99985 -.017452 .017452 .99985 2.9715 10.346)" width="744.09448" height="1052.3622" xlinkHref="#a"/>
 </g>
 <g transform="translate(-282.59 -61.627)" fill="#000000" fontFamily="Sans" fontSize="12px" letterSpacing="0px" textAnchor="center" wordSpacing="0px">
-<text x="493.12341" y="176.86237" textAlign="center" style="line-height:125%" xmlSpace="preserve"><tspan x="493.12341" y="176.86237">0</tspan></text>
-<text x="520.9035" y="179.20212" textAlign="center" style="line-height:125%" xmlSpace="preserve"><tspan x="520.9035" y="179.20212">10</tspan></text>
-<text x="548.33618" y="186.38535" textAlign="center" style="line-height:125%" xmlSpace="preserve"><tspan x="548.33618" y="186.38535">20</tspan></text>
-<text x="573.85645" y="198.21591" textAlign="center" style="line-height:125%" xmlSpace="preserve"><tspan x="573.85645" y="198.21591">30</tspan></text>
-<text x="597.10925" y="214.30486" textAlign="center" style="line-height:125%" xmlSpace="preserve"><tspan x="597.10925" y="214.30486">40</tspan></text>
-<text x="616.89813" y="234.14113" textAlign="center" style="line-height:125%" xmlSpace="preserve"><tspan x="616.89813" y="234.14113">50</tspan></text>
-<text x="633.1734" y="257.13007" textAlign="center" style="line-height:125%" xmlSpace="preserve"><tspan x="633.1734" y="257.13007">60</tspan></text>
-<text x="645.08948" y="282.59375" textAlign="center" style="line-height:125%" xmlSpace="preserve"><tspan x="645.08948" y="282.59375">70</tspan></text>
-<text x="652.52722" y="309.76135" textAlign="center" style="line-height:125%" xmlSpace="preserve"><tspan x="652.52722" y="309.76135">80</tspan></text>
-<text x="655.06879" y="337.79016" textAlign="center" style="line-height:125%" xmlSpace="preserve"><tspan x="655.06879" y="337.79016">90</tspan></text>
-<text x="652.44781" y="365.83398" textAlign="center" style="line-height:125%" xmlSpace="preserve"><tspan x="652.44781" y="365.83398">100</tspan></text>
-<text x="645.26459" y="393.04694" textAlign="center" style="line-height:125%" xmlSpace="preserve"><tspan x="645.26459" y="393.04694">110</tspan></text>
-<text x="633.43396" y="418.58475" textAlign="center" style="line-height:125%" xmlSpace="preserve"><tspan x="633.43396" y="418.58475">120</tspan></text>
-<text x="617.34503" y="441.67352" textAlign="center" style="line-height:125%" xmlSpace="preserve"><tspan x="617.34503" y="441.67352">130</tspan></text>
-<text x="597.50879" y="461.63232" textAlign="center" style="line-height:125%" xmlSpace="preserve"><tspan x="597.50879" y="461.63232">140</tspan></text>
-<text x="574.51984" y="477.86362" textAlign="center" style="line-height:125%" xmlSpace="preserve"><tspan x="574.51984" y="477.86362">150</tspan></text>
-<text x="549.05615" y="489.85291" textAlign="center" style="line-height:125%" xmlSpace="preserve"><tspan x="549.05615" y="489.85291">160</tspan></text>
-<text x="521.88855" y="497.20575" textAlign="center" style="line-height:125%" xmlSpace="preserve"><tspan x="521.88855" y="497.20575">170</tspan></text>
-<text x="493.85974" y="499.71799" textAlign="center" style="line-height:125%" xmlSpace="preserve"><tspan x="493.85974" y="499.71799">180</tspan></text>
-<text x="465.81592" y="497.37823" textAlign="center" style="line-height:125%" xmlSpace="preserve"><tspan x="465.81592" y="497.37823">190</tspan></text>
-<text x="438.82269" y="490.19501" textAlign="center" style="line-height:125%" xmlSpace="preserve"><tspan x="438.82269" y="490.19501">200</tspan></text>
-<text x="413.28488" y="478.36441" textAlign="center" style="line-height:125%" xmlSpace="preserve"><tspan x="413.28488" y="478.36441">210</tspan></text>
-<text x="390.19614" y="462.27548" textAlign="center" style="line-height:125%" xmlSpace="preserve"><tspan x="390.19614" y="462.27548">220</tspan></text>
-<text x="370.2373" y="442.43921" textAlign="center" style="line-height:125%" xmlSpace="preserve"><tspan x="370.2373" y="442.43921">230</tspan></text>
-<text x="354.00601" y="419.45029" textAlign="center" style="line-height:125%" xmlSpace="preserve"><tspan x="354.00601" y="419.45029">240</tspan></text>
-<text x="342.01672" y="393.98657" textAlign="center" style="line-height:125%" xmlSpace="preserve"><tspan x="342.01672" y="393.98657">250</tspan></text>
-<text x="334.66391" y="366.81897" textAlign="center" style="line-height:125%" xmlSpace="preserve"><tspan x="334.66391" y="366.81897">260</tspan></text>
-<text x="332.15164" y="338.79016" textAlign="center" style="line-height:125%" xmlSpace="preserve"><tspan x="332.15164" y="338.79016">270</tspan></text>
-<text x="334.49139" y="310.74637" textAlign="center" style="line-height:125%" xmlSpace="preserve"><tspan x="334.49139" y="310.74637">280</tspan></text>
-<text x="341.67462" y="283.53342" textAlign="center" style="line-height:125%" xmlSpace="preserve"><tspan x="341.67462" y="283.53342">290</tspan></text>
-<text x="353.48764" y="257.99561" textAlign="center" style="line-height:125%" xmlSpace="preserve"><tspan x="353.48764" y="257.99561">300</tspan></text>
-<text x="369.57657" y="234.90685" textAlign="center" style="line-height:125%" xmlSpace="preserve"><tspan x="369.57657" y="234.90685">310</tspan></text>
-<text x="389.41284" y="214.94804" textAlign="center" style="line-height:125%" xmlSpace="preserve"><tspan x="389.41284" y="214.94804">320</tspan></text>
-<text x="412.40176" y="198.71674" textAlign="center" style="line-height:125%" xmlSpace="preserve"><tspan x="412.40176" y="198.71674">330</tspan></text>
-<text x="437.86548" y="186.72745" textAlign="center" style="line-height:125%" xmlSpace="preserve"><tspan x="437.86548" y="186.72745">340</tspan></text>
-<text x="465.03305" y="179.37462" textAlign="center" style="line-height:125%" xmlSpace="preserve"><tspan x="465.03305" y="179.37462">350</tspan></text>
+<text x="493.12341" y="176.86237" text-align="center" style="line-height:125%" xmlSpace="preserve"><tspan x="493.12341" y="176.86237">0</tspan></text>
+<text x="520.9035" y="179.20212" text-align="center" style="line-height:125%" xmlSpace="preserve"><tspan x="520.9035" y="179.20212">10</tspan></text>
+<text x="548.33618" y="186.38535" text-align="center" style="line-height:125%" xmlSpace="preserve"><tspan x="548.33618" y="186.38535">20</tspan></text>
+<text x="573.85645" y="198.21591" text-align="center" style="line-height:125%" xmlSpace="preserve"><tspan x="573.85645" y="198.21591">30</tspan></text>
+<text x="597.10925" y="214.30486" text-align="center" style="line-height:125%" xmlSpace="preserve"><tspan x="597.10925" y="214.30486">40</tspan></text>
+<text x="616.89813" y="234.14113" text-align="center" style="line-height:125%" xmlSpace="preserve"><tspan x="616.89813" y="234.14113">50</tspan></text>
+<text x="633.1734" y="257.13007" text-align="center" style="line-height:125%" xmlSpace="preserve"><tspan x="633.1734" y="257.13007">60</tspan></text>
+<text x="645.08948" y="282.59375" text-align="center" style="line-height:125%" xmlSpace="preserve"><tspan x="645.08948" y="282.59375">70</tspan></text>
+<text x="652.52722" y="309.76135" text-align="center" style="line-height:125%" xmlSpace="preserve"><tspan x="652.52722" y="309.76135">80</tspan></text>
+<text x="655.06879" y="337.79016" text-align="center" style="line-height:125%" xmlSpace="preserve"><tspan x="655.06879" y="337.79016">90</tspan></text>
+<text x="652.44781" y="365.83398" text-align="center" style="line-height:125%" xmlSpace="preserve"><tspan x="652.44781" y="365.83398">100</tspan></text>
+<text x="645.26459" y="393.04694" text-align="center" style="line-height:125%" xmlSpace="preserve"><tspan x="645.26459" y="393.04694">110</tspan></text>
+<text x="633.43396" y="418.58475" text-align="center" style="line-height:125%" xmlSpace="preserve"><tspan x="633.43396" y="418.58475">120</tspan></text>
+<text x="617.34503" y="441.67352" text-align="center" style="line-height:125%" xmlSpace="preserve"><tspan x="617.34503" y="441.67352">130</tspan></text>
+<text x="597.50879" y="461.63232" text-align="center" style="line-height:125%" xmlSpace="preserve"><tspan x="597.50879" y="461.63232">140</tspan></text>
+<text x="574.51984" y="477.86362" text-align="center" style="line-height:125%" xmlSpace="preserve"><tspan x="574.51984" y="477.86362">150</tspan></text>
+<text x="549.05615" y="489.85291" text-align="center" style="line-height:125%" xmlSpace="preserve"><tspan x="549.05615" y="489.85291">160</tspan></text>
+<text x="521.88855" y="497.20575" text-align="center" style="line-height:125%" xmlSpace="preserve"><tspan x="521.88855" y="497.20575">170</tspan></text>
+<text x="493.85974" y="499.71799" text-align="center" style="line-height:125%" xmlSpace="preserve"><tspan x="493.85974" y="499.71799">180</tspan></text>
+<text x="465.81592" y="497.37823" text-align="center" style="line-height:125%" xmlSpace="preserve"><tspan x="465.81592" y="497.37823">190</tspan></text>
+<text x="438.82269" y="490.19501" text-align="center" style="line-height:125%" xmlSpace="preserve"><tspan x="438.82269" y="490.19501">200</tspan></text>
+<text x="413.28488" y="478.36441" text-align="center" style="line-height:125%" xmlSpace="preserve"><tspan x="413.28488" y="478.36441">210</tspan></text>
+<text x="390.19614" y="462.27548" text-align="center" style="line-height:125%" xmlSpace="preserve"><tspan x="390.19614" y="462.27548">220</tspan></text>
+<text x="370.2373" y="442.43921" text-align="center" style="line-height:125%" xmlSpace="preserve"><tspan x="370.2373" y="442.43921">230</tspan></text>
+<text x="354.00601" y="419.45029" text-align="center" style="line-height:125%" xmlSpace="preserve"><tspan x="354.00601" y="419.45029">240</tspan></text>
+<text x="342.01672" y="393.98657" text-align="center" style="line-height:125%" xmlSpace="preserve"><tspan x="342.01672" y="393.98657">250</tspan></text>
+<text x="334.66391" y="366.81897" text-align="center" style="line-height:125%" xmlSpace="preserve"><tspan x="334.66391" y="366.81897">260</tspan></text>
+<text x="332.15164" y="338.79016" text-align="center" style="line-height:125%" xmlSpace="preserve"><tspan x="332.15164" y="338.79016">270</tspan></text>
+<text x="334.49139" y="310.74637" text-align="center" style="line-height:125%" xmlSpace="preserve"><tspan x="334.49139" y="310.74637">280</tspan></text>
+<text x="341.67462" y="283.53342" text-align="center" style="line-height:125%" xmlSpace="preserve"><tspan x="341.67462" y="283.53342">290</tspan></text>
+<text x="353.48764" y="257.99561" text-align="center" style="line-height:125%" xmlSpace="preserve"><tspan x="353.48764" y="257.99561">300</tspan></text>
+<text x="369.57657" y="234.90685" text-align="center" style="line-height:125%" xmlSpace="preserve"><tspan x="369.57657" y="234.90685">310</tspan></text>
+<text x="389.41284" y="214.94804" text-align="center" style="line-height:125%" xmlSpace="preserve"><tspan x="389.41284" y="214.94804">320</tspan></text>
+<text x="412.40176" y="198.71674" text-align="center" style="line-height:125%" xmlSpace="preserve"><tspan x="412.40176" y="198.71674">330</tspan></text>
+<text x="437.86548" y="186.72745" text-align="center" style="line-height:125%" xmlSpace="preserve"><tspan x="437.86548" y="186.72745">340</tspan></text>
+<text x="465.03305" y="179.37462" text-align="center" style="line-height:125%" xmlSpace="preserve"><tspan x="465.03305" y="179.37462">350</tspan></text>
 </g>
 </g>
 </svg>

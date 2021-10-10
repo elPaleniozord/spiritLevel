@@ -4,7 +4,7 @@ import { Modal, ModalProvider } from './components/modal'
 import Level from './components/level'
 import Menu from './components/menu'
 import useOrientation from './hooks/useOrientation';
-import { DisplayProvider } from './hooks/displayMode';
+import { DisplayProvider } from './hooks/displayContext';
 
 function App() {
   const orientation = useOrientation()

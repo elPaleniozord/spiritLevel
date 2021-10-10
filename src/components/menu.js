@@ -1,11 +1,10 @@
 import React, {useContext, useState} from 'react'
-import { DisplayContext } from '../hooks/displayMode'
+import { DisplayContext } from '../hooks/displayContext'
 import '../styles/menu.css'
 
 const Menu = ({orientation, calibrate, offset}) => {
   const [collapsed, setCollapsed] = useState(true)
   const displayCtx = useContext(DisplayContext)
-
 
   const changeMode = () => {
     const newValue = displayCtx.display === 'rapporteur' ? 'grid' : 'rapporteur'

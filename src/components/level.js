@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import { DisplayContext } from '../hooks/displayMode';
+import { DisplayContext } from '../hooks/displayContext';
 import Grid from './grid'
 import Measure from './measure'
 import Rapporteur from './rapporteur';

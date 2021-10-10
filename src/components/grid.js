@@ -1,9 +1,20 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { DisplayContext } from '../hooks/displayContext'
 import '../styles/grid.css'
 
 const Grid = ({orientation}) => {
-  const x = orientation.gamma*100/180 || 0,
-        y = orientation.beta*100/90 || 0
+  //deviation angle is changed to percents, dividing by 2 corresponds to half of screen width
+  let x = orientation.gamma*100/90/2 || 0,
+        y = orientation.beta*100/90/2 || 0
+
+  // aspect ratio makes value display incorrectly on longer axis, need to adjust value with proper ratio
+  const {dimensions} = useContext(DisplayContext)
+  
+  if(dimensions.height > dimensions.width) {
+    y *= dimensions.height/dimensions.width
+  } else {
+    x *= dimensions.width/dimensions.height
+  }
 
   const leveled = Math.abs(orientation.beta) < 5 && Math.abs(orientation.gamma) < 10
 
@@ -21,7 +32,6 @@ const Grid = ({orientation}) => {
       <svg className='grid-center' viewBox='0 0 100 100'>
         <circle cx='50' cy='50' r='7' strokeWidth='.25' fill='none' />
       </svg>
-
       <svg className={`grid-crosshair${leveled ? ' grid-crosshair__leveled' : ''}`} viewBox='0 0 100 100'>
         <g id='crosshair' transform={`translate(${x}, ${y})`} transform-origin='center' fill='none' strokeWidth='.25'>
           <circle cx='50' cy='50'  r='2'  />

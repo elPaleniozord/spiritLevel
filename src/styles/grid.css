@@ -7,7 +7,7 @@
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
   grid-template-rows: 25% 25% 25% 25%;
-  z-index: -1;
+  z-index: 0;
   stroke: rgb(70, 255, 0);
 }
 .grid-ruler {

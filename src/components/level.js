@@ -3,6 +3,7 @@ import { DisplayContext } from '../hooks/displayMode';
 import Grid from './grid'
 import Measure from './measure'
 import Rapporteur from './rapporteur';
+import '../styles/level.css'
 
 const Level = ({orientation}) => {
   const ctx = useContext(DisplayContext)
@@ -14,8 +15,8 @@ const Level = ({orientation}) => {
         :
         <Grid orientation={orientation} />
       }
-      <Measure type={'horizontal'} orientation={orientation} />
-      <Measure type={'vertical'} orientation={orientation} />
+      <Measure type={'horizontal'} orientation={orientation} mode={ctx.display} />
+      <Measure type={'vertical'} orientation={orientation} mode={ctx.display} />
       {/* <Measure type={'vertical'} orientation={orient} />
       <Measure type={'flat'} orientation={orient} /> */}
     </div>

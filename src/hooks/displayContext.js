@@ -1,5 +1,5 @@
 import {createContext, useState} from 'react'
-import { useEffect } from 'react/cjs/react.development'
+import { useEffect } from 'react'
 
 export const DisplayContext = createContext({})
 
@@ -8,6 +8,7 @@ export const DisplayProvider = ({children, className}) => {
 
   const getDimensions = () => {
     const {innerWidth: width, innerHeight: height} = window
+    
     return {
       height,
       width
